@@ -17,6 +17,6 @@ EXPOSE 5000
 
 # the command that will run upon starting of container
 ENTRYPOINT [ "python3" ]
-CMD [ "./app.py" ]
+CMD [ "app.py" ]
 
 # the image is pushed to docker hub as sample-flask-app:v1
