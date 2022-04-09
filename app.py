@@ -7,7 +7,7 @@ app = Flask(__name__)
 def hello_world():
     return "This is a sample Flask App"
 
-@app.home("/home")
+@app.route("/home")
 def home():
     return "This is the home page"
 
